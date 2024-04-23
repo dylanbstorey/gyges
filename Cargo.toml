@@ -1,0 +1,13 @@
+[package]
+name = "gyges"
+version = "0.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+toml = "0.5.8"
+syn = { version = "2", features = ["full","visit"] }
+walkdir = "2.3.1"
+quote = "1.0"
+prettyplease = "0.2"
